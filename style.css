@@ -36,4 +36,11 @@ h1{
     background-color: #FF0000;
     color: white;
 }
-/* This is a test comment by Parsa*/
+/* koden under gjør h3 skriftene blanke eller blir hvit i dette tilfelle.*/
+a,
+a:visited,
+a:hover,
+a:active {
+  color: inherit;           /* Inherit color from parent */
+  text-decoration: none;    /* Optional: removes underline */
+}
